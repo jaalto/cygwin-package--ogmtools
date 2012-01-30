@@ -1,0 +1,2 @@
+tag1: ogmtools
+  http://packages.debian.org/unstable/ogmtools pregexp:orig.tar.gz file:ogmtools_1.5.orig.tar.gz new: x:

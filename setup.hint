@@ -1,0 +1,9 @@
+sdesc: "Tools for manipulating Ogg multimedia streams"
+ldesc: "Tools include:
+ogminfo - displays stream information;
+ogmdemux - demuxes an ogm stream into its component media streams;
+ogmsplit - splits an ogm stream into chunks;
+ogmmerge - joins media streams into an ogm stream;
+dvdxchap - extracts chapter information from DVDs"
+category: Audio
+requires: cygwin libogg0 libvorbis0 libvorbisenc2

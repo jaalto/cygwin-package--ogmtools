@@ -1,0 +1,70 @@
+ogmtools
+------------------------------------------
+
+Tools for manipulating Ogg multimedia streams
+
+Tools include:
+ogminfo - displays stream information;
+ogmdemux - demuxes an ogm stream into its component media streams;
+ogmsplit - splits an ogm stream into chunks;
+ogmmerge - joins media streams into an ogm stream;
+dvdxchap - extracts chapter information from DVDs
+
+Runtime requirements:
+  cygwin
+  libogg0
+  libvorbis0
+  libvorbisenc2
+
+Build requirements:
+  cygwin
+  libogg-devel
+  libvorbisenc2
+
+Canonical homepage:
+  http://packages.debian.org/ogmtools
+
+Canonical download:
+  See above
+
+Version control repository:
+
+Mailing list:
+
+Forum / Wiki:
+
+IRC channel:
+
+Upstream contact:
+  Maintainer: Moritz Bunkus <moritz@bunkus.org>
+  Bugs: Moritz Bunkus <moritz@bunkus.org>
+
+License:
+  GPL
+
+Language:
+  C
+
+------------------------------------------
+
+Build instructions:
+  unpack ogmtools-*-src.tar.bz2
+    if you use setup to install this src package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./ogmtools*.sh all
+
+------------------------------------------
+
+Files included in the binary distribution:
+  See content of *.tar.gz
+
+------------------------------------------
+
+Port Notes:
+
+----- version 1.5-1 -----
+- Initial release 2008-02-28 Jari Aalto
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2008 Jari Aalto; Licensed under GPL v2 or later
