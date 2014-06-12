@@ -6,4 +6,4 @@ ogmsplit - splits an ogm stream into chunks;
 ogmmerge - joins media streams into an ogm stream;
 dvdxchap - extracts chapter information from DVDs"
 category: Audio
-requires: cygwin libogg0 libvorbis0 libvorbisenc2
+requires: cygwin libogg0 libvorbis0 libvorbisenc2 libgcc1 libstdc++6

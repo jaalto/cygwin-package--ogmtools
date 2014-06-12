@@ -11,13 +11,13 @@ ogmmerge - joins media streams into an ogm stream;
 dvdxchap - extracts chapter information from DVDs
 
 Runtime requirements:
-  cygwin
   libogg0
   libvorbis0
   libvorbisenc2
 
 Build requirements:
-  cygwin
+  libgcc1
+  libstdc++6
   libogg-devel
   libvorbisenc2
 
